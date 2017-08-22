@@ -1,3 +1,5 @@
+[![](https://www.jitpack.io/v/IlyaPavlovskii/AniButton.svg)](https://www.jitpack.io/#IlyaPavlovskii/AniButton)
+
 # AniButton
 Now you can transform touch effect on Button widget. Use custom animation on button.
 
@@ -10,7 +12,6 @@ Add it in your root build.gradle at the end of repositories:
 ```gradle
 allprojects {
     repositories {
-        ...
         maven { url 'https://jitpack.io' }
     }
 }
