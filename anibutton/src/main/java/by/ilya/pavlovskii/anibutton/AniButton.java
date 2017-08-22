@@ -36,8 +36,8 @@ import android.view.MotionEvent;
  */
 public class AniButton extends android.support.v7.widget.AppCompatButton {
 
-    private Animator mInAnimator;
-    private Animator mOutAnimator;
+    protected Animator mInAnimator;
+    protected Animator mOutAnimator;
     private boolean mPressed;
 
     public AniButton(Context context) {
