@@ -105,4 +105,9 @@ public class AniButton extends android.support.v7.widget.AppCompatButton {
     public void setOutAnimator(Animator outAnimator) {
         mOutAnimator = outAnimator;
     }
+
+    public void setAnimator(Animator inAnimator, Animator outAnimator){
+        setInAnimator(inAnimator);
+        setOutAnimator(outAnimator);
+    }
 }

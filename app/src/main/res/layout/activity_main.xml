@@ -15,6 +15,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <by.ilya.pavlovskii.anibutton.AniButton
+            android:id="@+id/vAniButton"
             android:layout_width="@dimen/button_size"
             android:layout_height="@dimen/button_size"
             android:text="AniButton\nZoom In/Out"
