@@ -97,10 +97,6 @@ public class CircleAniButton extends AniButton {
                     double secLeg = Math.pow(Math.abs(eventY - centerY), 2);
                     double hypotenuse = Math.sqrt(firstLeg + secLeg);
                     if (hypotenuse <= radius) {
-//                        if( !mPressed ){
-//                            mAnimatorInSet.start();
-//                            mPressed = true;
-//                        }
                         if (mOnCircleClickListener != null){
                             mOnCircleClickListener.onClick(this);
                         }
@@ -109,11 +105,6 @@ public class CircleAniButton extends AniButton {
                 }
                 break;
             case MotionEvent.ACTION_UP:
-//                Log.d("CircleImageButton","MotionEvent.ACTION_UP: " + mPressed);
-//                if( mPressed ){
-//                    mAnimatorOutSet.start();
-//                    mPressed = false;
-//                }
                 return super.onTouchEvent(event);
         }
         return false;
