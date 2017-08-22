@@ -153,3 +153,6 @@ freeline/
 freeline_project_description.json
 
 /.idea/
+anibutton/libs/
+anibutton/src/main/res/drawable/
+app/libs/
