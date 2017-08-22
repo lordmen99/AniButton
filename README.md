@@ -18,9 +18,9 @@ allprojects {
 ```
 Add dependency:
 ```gradle
-	dependencies {
-	        compile 'com.github.IlyaPavlovskii:AniButton:-SNAPSHOT'
-	}
+dependencies {
+        compile 'com.github.IlyaPavlovskii:AniButton:v1.0'
+}
 ```
 ## How to use
 Just add to you layout:
