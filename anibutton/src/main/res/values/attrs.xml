@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="anim_in" format="reference"/>
+    <attr name="anim_out" format="reference"/>
+
     <declare-styleable name="AniButton">
-        <attr name="anim_in" format="reference"/>
-        <attr name="anim_out" format="reference"/>
+        <attr name="anim_in"/>
+        <attr name="anim_out"/>
+    </declare-styleable>
+    <declare-styleable name="AniImageButton">
+        <attr name="anim_in"/>
+        <attr name="anim_out"/>
     </declare-styleable>
 </resources>

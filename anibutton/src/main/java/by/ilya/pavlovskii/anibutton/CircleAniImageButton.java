@@ -17,22 +17,21 @@ package by.ilya.pavlovskii.anibutton;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.support.v7.widget.AppCompatImageButton;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
-import android.view.View;
 
 /**
  * Create with Android Studio<br>
  * Created by Pavlovskii Ilya<br>
  * E-mail: pavlovskii_ilya@mail.ru, trane91666@gmail.com<br>
  * Skype: trane9119<br>
- * Date: 22.08.17<br>
- * Time: 22:57<br>
+ * Date: 23.08.17<br>
+ * Time: 1:11<br>
  * Project name: AniButton<br>
  * ===================================================================================
  */
-public class CircleAniButton extends AniButton {
+public class CircleAniImageButton extends AniImageButton {
 
     //center x of Image
     private float centerX;
@@ -43,15 +42,15 @@ public class CircleAniButton extends AniButton {
 
     private OnCircleClickListener mOnCircleClickListener;
 
-    public CircleAniButton(Context context) {
+    public CircleAniImageButton(Context context) {
         super(context);
     }
 
-    public CircleAniButton(Context context, AttributeSet attrs) {
+    public CircleAniImageButton(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
-    public CircleAniButton(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CircleAniImageButton(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 

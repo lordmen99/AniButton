@@ -32,14 +32,32 @@
             app:anim_out="@animator/fade_out"/>
     </LinearLayout>
 
-    <by.ilya.pavlovskii.anibutton.CircleAniButton
-        android:layout_width="@dimen/button_size"
-        android:layout_height="@dimen/button_size"
+    <LinearLayout
+        android:orientation="horizontal"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/circle_background"
-        android:text="CircleAniButton"
-        app:anim_in="@animator/zoom_in"
-        app:anim_out="@animator/zoom_out"/>
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <by.ilya.pavlovskii.anibutton.CircleAniButton
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@drawable/circle_background"
+            android:text="CircleAniButton"
+            app:anim_in="@animator/zoom_in"
+            app:anim_out="@animator/zoom_out"/>
+
+        <by.ilya.pavlovskii.anibutton.CircleAniImageButton
+            android:layout_width="@dimen/button_size"
+            android:layout_height="@dimen/button_size"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:src="@mipmap/ic_launcher_foreground"
+            android:background="@drawable/circle_background"
+            app:anim_in="@animator/zoom_in"
+            app:anim_out="@animator/zoom_out"/>
+    </LinearLayout>
+
 
 </LinearLayout>
