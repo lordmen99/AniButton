@@ -55,6 +55,15 @@ If you want to use circle button:
 ```
 Now your touch will be work only on circle area.
 
+## Widgets
+Available widget extensions is:
+* ```AniButton``` - extends ```android.support.v7.widget.AppCompatButton```
+* ```CircleAniButton``` - extends ```android.support.v7.widget.AppCompatButton``` with circle 
+touch area effect
+* ```AniImageButton``` - extends ```android.support.v7.widget.AppCompatImageButton```
+* ```CircleAniImageButton``` - extends ```android.support.v7.widget.AppCompatImageButton``` with circle 
+touch effect
+
 # Licence
 
 ````
