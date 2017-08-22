@@ -1,4 +1,4 @@
-package anibutton.ilya.pavlovskii.by.anibutton;
+package by.ilya.pavlovskii.anibutton;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
