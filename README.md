@@ -19,7 +19,7 @@ allprojects {
 Add dependency:
 ```gradle
 dependencies {
-        compile 'com.github.IlyaPavlovskii:AniButton:v1.2'
+        compile 'com.github.IlyaPavlovskii:AniButton:v1.3'
 }
 ```
 ## How to use

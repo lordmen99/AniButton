@@ -13,12 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  *******************************************************************************/
-package by.ilya.pavlovskii.anibutton;
+package by.ilya.pavlovskii.anibutton.application;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Toast;
+
+import by.ilya.pavlovskii.anibutton.CircleAniButton;
+import by.ilya.pavlovskii.anibutton.CircleAniImageButton;
+import by.ilya.pavlovskii.anibutton.OnCircleClickListener;
 
 public class MainActivity extends AppCompatActivity {
 
