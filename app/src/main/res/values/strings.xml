@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">AniButton</string>
+    <string name="circle_anibutton">CircleAniButton</string>
 </resources>

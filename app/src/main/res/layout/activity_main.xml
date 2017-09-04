@@ -15,21 +15,18 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <by.ilya.pavlovskii.anibutton.AniButton
-            android:id="@+id/vAniButton"
-            android:layout_width="@dimen/button_size"
-            android:layout_height="@dimen/button_size"
+            android:id="@+id/vAbZoom"
             android:text="AniButton\nZoom In/Out"
-            android:layout_margin="20dp"
             app:anim_in="@animator/zoom_in"
-            app:anim_out="@animator/zoom_out"/>
+            app:anim_out="@animator/zoom_out"
+            style="@style/AniButton"/>
         <by.ilya.pavlovskii.anibutton.AniButton
-            android:layout_width="@dimen/button_size"
-            android:layout_height="@dimen/button_size"
+            android:id="@+id/vAbFade"
             android:text="AniButton\nFade In/Out"
             android:background="@color/colorAccent"
-            android:layout_margin="20dp"
             app:anim_in="@animator/fade_in"
-            app:anim_out="@animator/fade_out"/>
+            app:anim_out="@animator/fade_out"
+            style="@style/AniButton"/>
     </LinearLayout>
 
     <LinearLayout
@@ -39,24 +36,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <by.ilya.pavlovskii.anibutton.CircleAniButton
-            android:layout_width="@dimen/button_size"
-            android:layout_height="@dimen/button_size"
-            android:layout_gravity="center"
-            android:layout_margin="20dp"
+            android:id="@+id/vCabZoom"
             android:background="@drawable/circle_background"
-            android:text="CircleAniButton"
+            android:text="@string/circle_anibutton"
             app:anim_in="@animator/zoom_in"
-            app:anim_out="@animator/zoom_out"/>
+            app:anim_out="@animator/zoom_out"
+            style="@style/CircleAniButton"/>
 
         <by.ilya.pavlovskii.anibutton.CircleAniImageButton
-            android:layout_width="@dimen/button_size"
-            android:layout_height="@dimen/button_size"
-            android:layout_gravity="center"
-            android:layout_margin="20dp"
+            android:id="@+id/vCaibZoom"
             android:src="@mipmap/ic_launcher_foreground"
             android:background="@drawable/circle_background"
             app:anim_in="@animator/zoom_in"
-            app:anim_out="@animator/zoom_out"/>
+            app:anim_out="@animator/zoom_out"
+            style="@style/CircleAniButton"/>
     </LinearLayout>
 
 
